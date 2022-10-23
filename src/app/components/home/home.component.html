@@ -2,9 +2,9 @@
 <p>Auth code: {{ code }}</p>
 
 <button (click)="getToken()">Get Access Token</button>
-<p>Access Token: {{ jwt?.access_token }}</p>
-<p>Id Token: {{ jwt?.id_token }}</p>
-<p>Refresh Token: {{ jwt?.refresh_token }}</p>
+<p>Access Token: {{ jwt.access_token }}</p>
+<p>Id Token: {{ jwt.id_token }}</p>
+<p>Refresh Token: {{ jwt.refresh_token }}</p>
 
 <button (click)="getArticles()">Get Articles</button>
 <p>Articles: {{ articles }}</p>
