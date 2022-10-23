@@ -7,7 +7,7 @@ import { OAuth2Service } from 'src/app/services/oauth2.service';
   selector: 'app-auto-code',
   template: ''
 })
-export class AutoCodeComponent implements OnInit {
+export class AuthCodeComponent implements OnInit {
 
   constructor(private oauth2Service: OAuth2Service, private router: Router) { }
 

@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AutoCodeComponent } from './auto-code.component';
+import { AutoCodeComponent } from './auth-code.component';
 
 describe('AutoCodeComponent', () => {
   let component: AutoCodeComponent;

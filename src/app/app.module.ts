@@ -6,7 +6,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { HttpClientModule } from '@angular/common/http';
 import { ArticlesComponent } from './components/articles/articles.component';
 import { HomeComponent } from './components/home/home.component';
-import { AutoCodeComponent } from './components/auto-code/auto-code.component';
+import { AuthCodeComponent } from './components/auth-code/auth-code.component';
 import { ErrorComponent } from './error/error.component';
 import { AuthGuard } from './guards/auth.guard';
 
@@ -15,7 +15,7 @@ import { AuthGuard } from './guards/auth.guard';
     AppComponent,
     ArticlesComponent,
     HomeComponent,
-    AutoCodeComponent,
+    AuthCodeComponent,
     ErrorComponent,
   ],
   imports: [
